@@ -11,6 +11,9 @@ Omega Onion App for Smart Home Control
 
 ## Installation
 
-* Copy oos-app-home-os folder to /www/apps/ on your Omega.
+```
+Copy all files **/www/HomeOS/** folder on your Omega.
+Move **oos-app-home-os** folder to **/www/apps/** on your Omega.
+```
 
 <img src="static/img/Onion-Logo-Full.png" >
