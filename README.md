@@ -1,4 +1,4 @@
-<img src="static/img/HomeOS.svg" width="100">
+<img src="static/img/HomeOS.svg" width="100">  <img src="static/img/Onion-Logo-Full.png" >
 
 # HomeOS
 Omega Onion App for Smart Home Control
@@ -15,6 +15,6 @@ Omega Onion App for Smart Home Control
 * Copy all files to **/www/HomeOS/** folder on your Omega
 * Move **oos-app-home-os** folder to **/www/apps/**
 
-```
-<img src="static/img/Onion-Logo-Full.png" >
-```
+
+
+
