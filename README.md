@@ -1,4 +1,4 @@
-<img src="static/img/HomeOS.svg" width="150">
+<img src="static/img/HomeOS.svg" width="100">
 
 # HomeOS
 Omega Onion App for Smart Home Control
@@ -9,6 +9,8 @@ Omega Onion App for Smart Home Control
 
 * Tested on Omega2+ should run on all Omegas with Python 2/3 installed.
 
+## Installation
 
+* Copy oos-app-home-os folder to /www/apps/ on your Omega.
 
 <img src="static/img/Onion-Logo-Full.png" >
