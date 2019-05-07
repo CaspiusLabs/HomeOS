@@ -1,0 +1,10 @@
+{
+  "id": "oos-app-home-os",
+  "name": "HomeOS",
+  "icon": "icon.svg",
+  "description": "",
+  "type": "ExternalApp",
+  "params": {
+    "url": "/HomeOS"
+  }
+}

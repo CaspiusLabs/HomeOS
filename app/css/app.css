@@ -1,0 +1,18 @@
+#app {
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  background-image: linear-gradient(120deg, #b379c5, #5a81ba, #99deee);
+  background-size: cover;
+  overflow: hidden;
+}
+
+#app .card {
+  margin: .4rem;
+  box-shadow: 0 .25rem 1rem rgba(48,55,66,.15);
+}
+
+#app .filter-body {
+  overflow-y: auto;
+  height: 75vh;
+}

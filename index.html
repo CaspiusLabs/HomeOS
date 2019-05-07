@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>HomeOS</title>
+
+    <meta charset="utf-8">
+    <link rel="shortcut icon" type="image/png" href="./static/img/icons/onion.png">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+
+    <link rel="stylesheet" href="./static/css/spectre.min.css">
+    <link rel="stylesheet" href="./static/css/spectre-exp.min.css">
+    <link rel="stylesheet" href="./static/css/spectre-icons.min.css">
+    <link rel="stylesheet" href="./app/css/app.css">
+  </head>
+  <body>
+    <div id="app">
+
+      <div class="container grid-md">
+
+        <div class="columns col-oneline col-gapless">
+          <div class="column col-auto">
+            <a href="../../OnionOS" class="btn btn-link btn-lg">
+              <img src="./static/img/icons/onion.png" height="40">
+            </a>
+          </div>
+
+          <div class="column col-mx-auto">
+            <form class="form-horizontal">
+                <div class="has-icon-right">
+                  <input class="form-input input-lg" type="search" placeholder="Search device name"><i class="form-icon icon icon-search"></i>
+                </div>
+            </form>
+          </div>
+
+          <div class="column col-auto">
+            <button class="btn btn-link btn-lg">
+              <i class="icon icon-message text-light"></i>
+            </button>
+          </div>
+
+          <div class="column col-auto">
+            <button class="btn btn-link btn-lg">
+              <i class="icon icon-shutdown text-light"></i>
+            </button>
+          </div>
+        </div>
+
+        <div class="columns">
+          <div class="column col-12 col-mx-auto">
+
+            <div class="filter">
+              <input type="radio" id="tag-0" class="filter-tag" name="filter-radio" hidden checked>
+              <input type="radio" id="tag-1" class="filter-tag" name="filter-radio" hidden>
+              <input type="radio" id="tag-2" class="filter-tag" name="filter-radio" hidden>
+              <input type="radio" id="tag-3" class="filter-tag" name="filter-radio" hidden>
+              <input type="radio" id="tag-4" class="filter-tag" name="filter-radio" hidden>
+
+              <div class="filter-nav">
+                <label class="chip c-hand" for="tag-0">ALL</label>
+                <label class="chip c-hand" for="tag-1">PC</label>
+                <label class="chip c-hand" for="tag-2">TV</label>
+                <label class="chip c-hand" for="tag-3">NEO</label>
+                <label class="chip c-hand" for="tag-4">SONOFF</label>
+
+                <label class="chip">
+                  <figure class="avatar avatar-sm bg-dark" data-initial="3">
+                    <i class="avatar-presence online"></i>
+                  </figure>
+                  NEO
+                  <a href="#" class="btn btn-clear" aria-label="Close" role="button"></a>
+                </label>
+
+                <label class="chip">
+                  <figure class="avatar avatar-sm bg-dark" data-initial="4">
+                    <i class="avatar-presence online"></i>
+                  </figure>
+                  SONOFF
+                  <a href="#" class="btn btn-clear" aria-label="Close" role="button"></a>
+                </label>
+              </div>
+
+              <div class="filter-body">
+
+                <div class="filter-item card" data-tag="tag-1">
+                  <div class="card-header">
+                    <div class="card-title h5">PC</div>
+                    <div class="card-subtitle text-gray">Created on Jan 30, 2018</div>
+                  </div>
+                  <div class="card-body">
+                    <div class="loading loading-lg"></div>
+                    <div class="form-group">
+                      <label class="form-switch">
+                        <input type="checkbox">
+                        <i class="form-icon"></i> Turn PC on
+                      </label>
+                    </div>
+                  </div>
+                  <div class="card-footer text-right">
+                    Last Update
+                    <div class="text-gray">
+                      Tue Jan 30, 2018 @ 11:12 PM
+                      <i class="icon icon-time"></i>
+                      <br> Edit
+                      <i class="icon icon-edit"></i>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="filter-item card" data-tag="tag-2">
+                  <div class="card-header">
+                    <div class="card-title h5">TV</div>
+                    <div class="card-subtitle text-gray">Created on Jan 30, 2018</div>
+                  </div>
+                  <div class="card-body">
+                    <div class="loading loading-lg"></div>
+                  </div>
+                  <div class="card-footer text-right">
+                    Last Update
+                    <div class="text-gray">
+                      Tue Jan 30, 2018 @ 11:12 PM
+                      <i class="icon icon-time"></i>
+                      <br> Edit
+                      <i class="icon icon-edit"></i>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="filter-item card" data-tag="tag-3">
+                  <div class="card-header">
+                    <div class="card-title h5">NEO</div>
+                    <div class="card-subtitle text-gray">Created on Jan 30, 2018</div>
+                  </div>
+                  <div class="card-body">
+                    <div class="loading loading-lg"></div>
+                  </div>
+                  <div class="card-footer text-right">
+                    Last Update
+                    <div class="text-gray">
+                      Tue Jan 30, 2018 @ 11:12 PM
+                      <i class="icon icon-time"></i>
+                      <br> Edit
+                      <i class="icon icon-edit"></i>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="filter-item card" data-tag="tag-4">
+                  <div class="card-header">
+                    <div class="card-title h5">SONOFF</div>
+                    <div class="card-subtitle text-gray">Created on Jan 30, 2018</div>
+                  </div>
+                  <div class="card-body">
+                    <div class="loading loading-lg"></div>
+                  </div>
+                  <div class="card-footer text-right">
+                    Last Update
+                    <div class="text-gray">
+                      Tue Jan 30, 2018 @ 11:12 PM
+                      <i class="icon icon-time"></i>
+                      <br> Edit
+                      <i class="icon icon-edit"></i>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+    </div>
+    <script type="text/javascript" src="./static/js/vue.js"></script>
+    <script type="text/javascript" src="./app/js/app.js"></script>
+  </body>
+</html>
